@@ -10,46 +10,33 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
+        <a href="#">Projects</a>
         <a href="#">Contact</a>
+        <a href="#">Github</a>
+        <a href="#">LinkedIn</a>
       </div>
-
-    <div id="main">
-        <header role="banner">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-        </header>
-
-        <section>
-            Section 1
-        </section>
-
-        <section>
-            Section 2
-        </section>
-
-        <section>
-            Section 3
-        </section>
-
-        <section>
-            Project 3
-        </section>
+      
+      <div id="main">
+        <h2>Charita Nichols</h2>
         
-        <section>
-            Section 4
-        </section>
-    </div>
-    <footer role="content-info">Footer</footer>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+         
     
-    <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-        }
-     </script>
+    
+    
+    
 </body>
 </html>
