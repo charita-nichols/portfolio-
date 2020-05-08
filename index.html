@@ -9,21 +9,24 @@
 <body>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a class="jumper" href="#About">About</a>
-        <a class="jumper" href="#Projects">Projects</a>
-        <a class="jumper" href="#Contact">Contact</a>
-        <a href="#https://github.com/charita-nichols">Github</a>
-        <a target="blank" href="#https://www.linkedin.com/in/charitanichols">LinkedIn</a>
+        <a class="jumper" href="#about">About</a>
+        <a class="jumper" href="#projects">Projects</a>
+        <a class="jumper" href="#contact">Contact</a>
       </div>
-      
-    <div id="main" class="hero">
+    
+    <header>
         <hero>Hi I'm Charita and I'm a Web Devloper.</hero>
+    </header>
+
+    <div id="main" class="hero">
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         
 
     <div id="bio" class="container">
-        <section>
-            <h2>About Me</h2>
+        <section id="about">
+            <h2>About Me
+            </h2>
+            <img class="Headshot" src="./images/Portfolio photo (1).jpg"/>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ipsa blanditiis perspiciatis mollitia ea debitis qui dolore 
              quaerat molestiae doloremque, asperiores optio maxime, placeat a? Corrupti, laborum amet. Reiciendis. Lorem, ipsum dolor sit amet 
              consectetur adipisicing elit. Animi, consectetur, vero odio accusantium nobis similique fuga neque, sit eum quam expedita 
@@ -31,9 +34,19 @@
         </section>
             
             
-        <section>
+        <section id="projects">
             <h2>Project 1</h2>
-            <p>Quiz App</p>
+            <p>Pop Culture Knowledge Test</p>
+            <img class="Quiz app screenshot" src="./images/beyonce_quiz_screenshot.jpg"/><br>
+            <a href="https://thinkful-ei-orka.github.io/Quiz-App-Charita-Orkun/">Live</a>
+            <a href="https://github.com/thinkful-ei-orka/Quiz-App-Charita-Orkun">Repo</a>
+        </section>
+
+        <section id="contact"> 
+            <h2>Contact Me</h2>
+            <a href= "mailto: nichols.charita@gmail.com"> Email</a>
+            <a href= "https://github.com/charita-nichols">Github</a>
+            <a href= "https://www.linkedin.com/in/charitanichols">LinkedIn</a>
         </section>
     </div>
       
