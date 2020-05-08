@@ -1,13 +1,16 @@
 *{
     box-sizing: border-box;
-    background-color: #DBA8AC;
+    background-color: #E9C6CA;
 
   }
 
   body {
     font-family: "Lato", sans-serif;
   }
+
+
   
+
   .sidenav {
     height: 100%;
     width: 0;
