@@ -62,4 +62,20 @@
 
   @media (min-width: 1024px) {
 
+    .main {
+        margin-top: 50px;
+        width: 1200px;
+        text-align: center;
+        padding: 20px 10px;
+      }
+
+    p {
+        text-align: center;
+    }
+
+    img {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+      }
   }
